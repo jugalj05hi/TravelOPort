@@ -1,10 +1,26 @@
 # Application Link
 
-This is my attempt to remake the famous retro game Breakout with notably good FPS to suit modern day monitors. 
+1. [Firebase link](https://travel-o-port.web.app) -- Faster Link to open the application
+2. [Heroku Link](https://traveloport.herokuapp.com/) -- Slower link. 
+    - While loading the Heroku Link it'll take some time since non premium customers have their thread sleeping if not active than a certain amount of time. 
+NOTE: After clicking on the links above, please spare 2-3 mins for the backend to wake-up. The backend is hosted on Heroku hence it faces the same issue as the frontend heroku app i.e. making inactive session sleep. There is 
+no bug in the application but rather it is an annoying feature to pay-up from Heroku. For more read [here](https://devcenter.heroku.com/articles/dynos#dyno-sleeping).
 
-# Technology Stack Used
-- C++17
-- SDL2
+# Tech Stack Used
+1. Frontend 
+    - HTML
+    - CSS
+    - Javascript
+    - React
+    - Redux for state management 
+    - React hooks for state management
+2. Backend
+    - Node.JS for runtime
+    - Express.JS for providing internal API calls through middleware
+    - Various NPM packages such as Mongoose, Crypto-js, bcrypt, and more. 
+3. Database
+    - MongoDB 
+        - Hostend on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
 # Code Architecture 
 The following docs below are generated through 'Doxygen' and gives you an overview of the game code base and architecture
