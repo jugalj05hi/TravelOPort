@@ -211,12 +211,12 @@ class RegistrationContent extends React.Component {
                      value={this.state.confirmPassword}
                      onChange={this.handleConfirmPassword}
               />
-              {this.state.match &&
+              {this.state.match && this.state.match !== "" &&
               <p className="color-green mb-0">passwords match!!</p>
               }
-              {!this.state.match &&
+            {!this.state.match && this.state.match !== "" &&
               <p className="red mb-0">passwords do not match!!</p>
-              }
+            }
             </div>
           </div>
 
