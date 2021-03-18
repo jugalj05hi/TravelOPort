@@ -27,7 +27,7 @@ no bug in the application but rather it is an annoying pay-wall from Heroku. For
 2. [Exchange Rates API](https://api.exchangeratesapi.io/)
 # Application Architecture 
 ![Image](/media/mern.png)
-<sub><sup>Picture credit: https://damianfallon.blogspot.com/2021/01/the-ultimate-guide-to-mern-stack.html</sup></sub>
+<br><sub><sup>Picture credit: https://damianfallon.blogspot.com/2021/01/the-ultimate-guide-to-mern-stack.html</sup></sub>
 
 # Application Snapshots
 ### User Dashboard
