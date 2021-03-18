@@ -3,7 +3,7 @@
 1. [Firebase link](https://travel-o-port.web.app) -- Faster Link to open the application
 2. [Heroku Link](https://traveloport.herokuapp.com/) -- Slower link. 
     - While loading the Heroku Link it'll take some time since non premium customers have their thread sleeping if not active than a certain amount of time. 
-<br>**NOTE: After clicking on the links above, please spare 2-3 mins for the backend to wake-up. The backend is hosted on Heroku hence it faces the same issue as the frontend heroku app i.e. making inactive session sleep. There is 
+3. **NOTE: After clicking on the links above, please spare 2-3 mins for the backend to wake-up. The backend is hosted on Heroku hence it faces the same issue as the frontend heroku app i.e. making inactive session sleep. There is 
 no bug in the application but rather it is an annoying feature to pay-up from Heroku. For more read [here](https://devcenter.heroku.com/articles/dynos#dyno-sleeping).**
 
 # Tech Stack Used
