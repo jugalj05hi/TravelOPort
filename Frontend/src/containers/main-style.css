@@ -1,0 +1,88 @@
+.navbar-brand {
+  color: #61dafb;
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 7rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.spacer {
+  width: 76%
+}
+
+.search-spacer {
+  height: 44%;
+}
+
+.container-background {
+  background-color: white;
+}
+
+.height {
+  height: 100vh;
+}
+
+.fix-height {
+  max-height: 650px;
+  overflow: auto;
+}
+
+.tableFixHead {
+  overflow-y: auto;
+  height: 100px;
+}
+
+.tableFixHead thead th {
+  position: sticky;
+  top: 0;
+}
+
+.mouse-over {
+  cursor: pointer;
+  color: blue;
+}
+
+.custom-align {
+  position: relative;
+  left: 13%
+}
+
+.color-green {
+  color: darkgreen;
+}
+
+.red {
+  color: red;
+}
+
+.overlap {
+  position: absolute;
+  z-index: 1;
+}
+
+.error{
+  border-style: solid;
+  border-width: thin;
+  border-radius: 4px;
+  border-color: red;
+  background-color: antiquewhite;
+  color: red;
+}
+
+.dark-theme{
+  background-color: black;
+  color: white;
+}
+
+.confirm-center{
+  position: relative;
+  margin-bottom: 70px;
+  border-radius: 6px;
+}
+
+.delete{
+  cursor: pointer;
+}

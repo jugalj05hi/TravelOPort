@@ -1,0 +1,31 @@
+{
+  "name": "experiment",
+  "version": "1.0.0",
+  "description": "API experiment",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js "
+  },
+  "keywords": [
+    "API",
+    "Test"
+  ],
+  "author": "Jugal Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "airlines-iata-codes": "^1.0.1",
+    "airport-codes": "^1.0.2",
+    "amadeus": "^3.3.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.9",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

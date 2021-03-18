@@ -1,0 +1,45 @@
+.color-white {
+  color: white;
+}
+
+.color-white:hover {
+  color: white;
+}
+
+.drop:hover{
+  background-color: silver;
+}
+
+.profile-name{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size:1.5rem;
+  font-weight:400
+}
+
+.admin:hover i{
+  color: green;
+}
+
+.currency:hover i{
+  color: yellow;
+}
+
+.flights:hover i{
+  color: #00aced;
+}
+
+.home:hover i{
+  color: darkgoldenrod;
+}
+
+.hotels:hover i{
+  color:blueviolet;
+}
+
+.profile:hover i{
+  color: orange;
+}
+
+.logout:hover i{
+  color: red;
+}
